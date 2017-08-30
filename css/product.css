@@ -1,0 +1,145 @@
+#page_top img{
+	float:left;
+}
+#banner img{
+	width:1360px;
+	
+}
+.product_top{
+	text-align:center;
+	margin:60px 0;
+}
+.product_top p{
+	font-size:20px;color:#eee;
+}
+.product_top h1{
+	color:#595757;
+	margin:25px 0;
+	display:inline-block;
+	border-bottom:1px solid #898989;
+	padding-bottom:15px;
+	position:relative;
+}
+.product_top h1 i{
+	position:absolute;
+	bottom:-2px;
+	left:34%;
+	width:35px;
+	border:2px solid #898989;
+}
+.product_top span{
+	display:block;
+	font-size:14px;
+	color:#999;
+}
+.rotate{
+	width: 1320px;
+	height:400px;
+	position: relative;
+}
+.rotate-1{
+	position:relative;
+	float:left;
+	height:320px;
+	width:210px;
+	margin:0 60px;
+}
+.rotate-1 a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:320px;
+	width:210px;
+	border:1px solid #ddd;
+	text-align:center;
+}
+
+.rotate-1 b{
+	display:block;
+	width:135px;
+	height:135px;
+	border:1px solid #ddd;
+	border-radius:50%;
+	margin:30px auto;
+}
+.rotate-1 h3{
+	margin:30px 0;
+	color:#898787;
+	font-weight:normal;
+	font-size:20px;
+}
+.rotate-1 p{
+	margin:5px 0;
+	color:#898989;
+	font-size:14px;
+}
+.a1{
+	backface-visibility:hidden;
+	/*z-index:1000;*/
+	transform:rotateY(180deg);
+	transition:transform .5s ease;
+	background:#ea5504;
+}
+.a1 h3,.a1 p{
+	color:#FFF;
+}
+.rotate-1:hover .a1{
+	transform:rotateY(0deg);
+}
+.a2{
+	backface-visibility:hidden;
+	transform:rotateY(0deg);
+	transition:transform .5s ease;
+}
+.rotate-1:hover .a2{
+	transform:rotateY(180deg);
+}
+.just{
+	transform:rotateY(180deg);
+	transition:transform .5s ease;
+	backface-visibility:hidden;
+	background:#EA5504;
+}
+.rotate_1:hover .just{
+	 transform: rotateY(0deg);
+ }
+.just h3,.just p{
+	color:#FFF;
+}
+.reverse{
+	transform:rotateY(0deg);
+	transtion:transform .5s ease;
+	backface-visibility:hidden;
+}
+.rotate_1:hover .reverse{
+	transform:rotateY(180deg);
+}
+.customer_p {
+	min-height: 200px;
+	margin: 0 90px;
+	overflow: hidden;
+}
+.customer_p li{
+	float:left;
+	width:230px;
+	height:150px;
+	border-right:1px dotted #DDD;
+	border-bottom:1px dotted #DDD;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.customer_p p{
+	height:300px;
+	position:relative;
+	top:0;
+	left:0;
+	transition:all .5s linear;
+}
+.customer_p li:hover p{
+	top:-150px;
+}
+#customer{
+	margin-bottom:50px;
+}
+
+
